@@ -1,0 +1,52 @@
+Abbreviation Singular Plural Comments
+==================================
+in inch inches 2.54 cm
+ft foot feet 30.48 cm
+yd yard yards 91.44 cm
+mi mile miles 1609.344 m
+mm millimeter millimeters
+cm centimeter centimeters
+m meter meters
+km kilometer kilometers
+pt point points inches / 72
+pc pica picas points * 12
+tpt traditional point traditional points inches / 72.27
+tpc traditional pica traditional picas 12 tpt
+ci cicero ciceros 12.7872 pt
+px pixel pixels baseless (see below)
+% percent percent baseless (see below)
+==================================
+
+in
+inch
+inches
+ft
+foot
+feet
+yd
+yard
+yards
+mi
+mile
+miles
+mm
+millimeter
+millimeters
+cm
+centimeter
+centimeters
+m
+meter
+meters
+km
+kilometer
+kilometers
+pt
+point
+points
+pc
+pica
+picas
+ci
+cicero
+ciceros
