@@ -16,7 +16,7 @@ Hope I have time to write one.
 
 The script has been tested on:
 
-* Window 11 + InDesign 2022 (64-bit)
+* Windows 11 + InDesign 2022 (64-bit)
 * mac mini Late 2012 + masOS 10.14.7 + InDesign 2021 (32 bit)
 * mac mini Late 2012 + masOS 10.15.6 + InDesign 2022 (64 bit)
 
