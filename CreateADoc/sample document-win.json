@@ -1,0 +1,295 @@
+{
+    "_comment_script_meta_":"Don't change the following tow lines",
+	"InDesign Script":"This file is for the InDesign Script:01 Create Document.jsx",
+    "file format":"v1.0.0",
+
+    "date":"2022.04.06",
+    "creater":"CIChien",
+    "OS":"win",
+
+    "Document Name":"MyProject_001",
+    "Document Path":"D:\\InDesign Scripts\\2022_04_27\\Gratis\\",
+
+    "_comment_basic_" : "please follow",
+    "Basic Settings": {
+      "pageHeight":"29.8cm",
+      "pageWidth":"21.6cm",
+      "pageOrientation":"portrait",
+      "facingPages":"true",
+
+      "_comment___documentBleedUniformSize":"true",
+      "documentBleedTopOffset":"3p",
+
+      "_comment___documentSlugUniformSize":"true",
+      "slugTopOffset":"5p",
+
+      "rulerOrigin":"pageOrigin",
+      "horizontalMeasurementUnits":"points",
+      "verticalMeasurementUnits":"points",
+
+      "minimumSpaceAboveAndBelow":"12p"
+    },
+    "_comment_colors_" : "name, C, Y, M, K",
+    "Colors": [
+        {"name":"cr隱藏章節號", "C":10, "Y":10, "M":10, "K":10},
+        {"name":"cr母音", "C":20, "Y":50, "M":60, "K":10},
+        {"name":"cr文字黑", "C":0, "Y":0, "M":0, "K":100},
+        {"name":"color3", "C":50.3, "Y":40.7, "M":70, "K":20}
+    ],
+    "_comment_composite_fonts_win_" : "name, hanName, hanStyle, romName, romStyle",
+    "Composite Fonts": [
+        {"name":"標楷-Arial-R", "hanName":"標楷體", "hanStyle":"Regular", "romName":"Arial", "romStyle":"Regular"},
+        {"name": "黑體-Times-L", "hanName":"微軟正黑體", "hanStyle":"Light", "romName":"Times New Roman", "romStyle":"Regular"},
+        {"name":"黑體-Times-B", "hanName":"微軟正黑體", "hanStyle":"Bold", "romName":"Times New Roman", "romStyle":"Bold"},
+        {"name": "黑體-Arial-L", "hanName":"微軟正黑體", "hanStyle":"Light", "romName":"Arial", "romStyle":"Regular"},
+        {"name": "黑體-Arial-B", "hanName":"微軟正黑體", "hanStyle":"Bold", "romName":"Arial", "romStyle":"Bold"}
+    ],
+    "_comment_cross_ref_" : "name, csName",
+    "Cross Refs": [
+        {"name":"x節號", "csName":"c右書眉節"},
+        {"name":"x章號", "csName":"c左書眉章號"}
+    ],
+    "_comment_cstyle_" : "name, fontSize, fontName, fontStyle, color",
+    "_comment_underline_" : "weight, offset, type, color",
+    "_comment_strikethrough_" : "weight, offset, type, color",
+    "CStyles": [
+        {
+            "name":"c右書眉節", "fontSize":0, "fontName":"", "fontStyle":"", "color":"",
+            "underline":{"weight":0, "offset":0, "type":"", "color":""},
+            "strikethrough":{"weight":0, "offset":0, "type":"", "color":""}
+        },
+        {
+            "name":"c右書眉節號", "fontSize":0, "fontName":"", "fontStyle":"", "color":"cr隱藏章節號",
+            "underline":{"weight":0, "offset":0, "type":"", "color":""},
+            "strikethrough":{"weight":0, "offset":0, "type":"", "color":""}
+        },
+        {
+            "name":"c左書眉章", "fontSize":0, "fontName":"", "fontStyle":"", "color":"",
+            "underline":{"weight":0, "offset":0, "type":"", "color":""},
+            "strikethrough":{"weight":0, "offset":0, "type":"", "color":""}
+        },
+        {
+            "name":"c左書眉章號", "fontSize":0, "fontName":"", "fontStyle":"", "color":"cr隱藏章節號",
+            "underline":{"weight":0, "offset":0, "type":"", "color":""},
+            "strikethrough":{"weight":0, "offset":0, "type":"", "color":""}
+        },
+
+        {
+            "name":"cTestCompoFont", "fontSize":0, "fontName":"黑體-Arial-B", "fontStyle":"", "color":"",
+            "underline":{"weight":0, "offset":0, "type":"", "color":""},
+            "strikethrough":{"weight":0, "offset":0, "type":"", "color":""}
+        },
+
+        {
+            "name":"c音標箭頭", "fontSize":12, "fontName":"Segoe UI Symbol", "fontStyle":"Regular", "color":"",
+            "underline":{"weight":50, "hight":50, "offset":-1, "type":"", "color":""},
+            "strikethrough":{"weight":0, "offset":0, "type":"", "color":""}
+        },
+        {
+            "name":"c音標括弧", "fontSize":9, "fontName":"Times New Roman", "fontStyle":"Regular", "color":"",
+            "underline":{"weight":0, "offset":0, "type":"", "color":""},
+            "strikethrough":{"weight":0, "offset":0, "type":"", "color":""}
+        },
+
+        {
+            "name":"cB1", "fontSize":12, "fontName":"Tahoma", "fontStyle":"Regular", "color":"",
+            "underline":{"weight":14, "offset":-4, "type":"實線", "color":"cr母音"},
+            "strikethrough":{"weight":0, "offset":0, "type":"", "color":""}
+        },
+        {
+            "name":"cB1-", "fontSize":12, "fontName":"Tahoma", "fontStyle":"Regular", "color":"",
+            "underline":{"weight":14, "offset":-4, "type":"實線", "color":"cr母音"},
+            "strikethrough":{"weight":0.5, "offset":-1.3, "type":"實線", "color":"cr文字黑"}
+        },
+        {
+            "name":"cB1=", "fontSize":12, "fontName":"Tahoma", "fontStyle":"Regular", "color":"",
+            "underline":{"weight":14, "offset":-4, "type":"實線", "color":"cr母音"},
+            "strikethrough":{"weight":1.5, "offset":-1.8, "type":"粗 - 粗", "color":"cr文字黑"}
+        },
+
+        {
+            "name":"cB15", "fontSize":12.5, "fontName":"Tahoma", "fontStyle":"Regular", "color":"",
+            "underline":{"weight":14, "offset":-4.17, "type":"實線", "color":"cr母音"},
+            "strikethrough":{"weight":0, "offset":0, "type":"", "color":""}
+        },
+        {
+            "name":"cB15-", "fontSize":12.5, "fontName":"Tahoma", "fontStyle":"Regular", "color":"",
+            "underline":{"weight":14, "offset":-4.17, "type":"實線", "color":"cr母音"},
+            "strikethrough":{"weight":0.5, "offset":-1.133, "type":"實線", "color":"cr文字黑"}
+        },
+        {
+            "name":"cB15=", "fontSize":12.5, "fontName":"Tahoma", "fontStyle":"Regular", "color":"",
+            "underline":{"weight":14, "offset":-4.17, "type":"實線", "color":"cr母音"},
+            "strikethrough":{"weight":1.5, "offset":-1.633, "type":"粗 - 粗", "color":"cr文字黑"}
+        }
+    ],
+    "_comment_master_spreads_" : "baseName, ",
+    "Master Spreads": [
+        {
+            "defaultName":"A-主版", "baseName":"主版面", "namePrefix":"A",
+            "leftPage":
+            {
+                "columncount":0, "columnGutter":"",
+                "bottom":"2.4cm",
+				"left":"2.3cm",
+				"right":"1.8cm",
+				"top":"2.4cm",
+                "heading":
+                {
+                    "textFrames":
+                    [
+                        {
+                            "geometricBounds":["14mm", "18mm", "19mm", "193mm"],
+                            "contents":
+                            [
+                                "textVariableInstances.tv左書眉章",
+                                "SpecialCharacters.enSpace",
+                                "textVariableInstances.tv左書眉章號",
+                                "SpecialCharacters.emSpace",
+                                "|",
+                                "SpecialCharacters.emSpace",
+                                "SpecialCharacters.autoPageNumber"
+                            ],
+                            "justification":"leftAlign"
+                        }
+                    ]
+                }
+            },
+            "rightPage":
+            {
+                "columncount":0, "columnGutter":"",
+                "bottom":"2.4cm",
+				"left":"2.3cm",
+				"right":"1.8cm",
+				"top":"2.4cm",
+                "heading":
+                {
+                    "textFrames":
+                    [
+                        {
+                            "geometricBounds":["14mm", "23mm", "19mm", "198mm"],
+                            "contents":
+                            [
+                                "SpecialCharacters.autoPageNumber",
+                                "SpecialCharacters.emSpace",
+                                "|",
+                                "SpecialCharacters.emSpace",
+                                "textVariableInstances.tv右書眉節",
+                                "SpecialCharacters.enSpace",
+                                "textVariableInstances.tv右書眉節號"
+                            ],
+                            "justification":"rightAlign"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "defaultName":"", "baseName":"無書眉主版面", "namePrefix":"B",
+            "leftPage":
+            {
+                "columncount":0, "columnGutter":"",
+                "bottom":"2.4cm",
+				"left":"2.3cm",
+				"right":"1.8cm",
+				"top":"2.4cm"
+            },
+            "rightPage":
+            {
+                "columncount":0, "columnGutter":"",
+                "bottom":"2.4cm",
+				"left":"2.3cm",
+				"right":"1.8cm",
+				"top":"2.4cm"
+            }
+        },
+        {
+            "defaultName":"", "baseName":"頁碼主版面", "namePrefix":"C",
+            "leftPage":
+            {
+                "columncount":0, "columnGutter":"",
+                "bottom":"2.4cm",
+				"left":"2.3cm",
+				"right":"1.8cm",
+				"top":"2.4cm",
+                "heading":
+                {
+                    "textFrames":
+                    [
+                        {
+                            "geometricBounds":["14mm", "18mm", "19mm", "193mm"],
+                            "contents":
+                            [
+                                "SpecialCharacters.autoPageNumber"
+                            ],
+                            "justification":"leftAlign"
+                        }
+                    ]
+                }
+            },
+            "rightPage":
+            {
+                "columncount":0, "columnGutter":"",
+                "bottom":"2.4cm",
+				"left":"2.3cm",
+				"right":"1.8cm",
+				"top":"2.4cm",
+                "heading":
+                {
+                    "textFrames":
+                    [
+                        {
+                            "geometricBounds":["14mm", "23mm", "19mm", "198mm"],
+                            "contents":
+                            [
+                                "SpecialCharacters.autoPageNumber"
+                            ],
+                            "justification":"rightAlign"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "_comment_pstyle_" : "name, fontName, fontStyle, fontSize, nextStyle",
+    "_comment_running_header_" : "listType, level, numberStyle, numberStr, cStyle",
+    "_comment_note_pstyle_":"!!! If fontStyle is empty, a composite font should be used as fontName!!!",
+    "_comment_note_pstyle_type_":" type: NUMBERED_LIST, BULLET_LIST, NO_LIST",
+    "PStyles": [
+        {
+            "name":"內文", "fontName":"標楷-Arial-R", "fontStyle":"", "fontSize":12, "nextStyle":"",
+            "running header":{"listType":"", "level":0, "numberStyle":"", "numberStr":"", "cStyle":""}
+        },
+        {
+            "name":"Test", "fontName":"Tahoma", "fontStyle":"Reguler", "fontSize":12, "nextStyle":"",
+            "running header":{"listType":"", "level":0, "numberStyle":"", "numberStr":"", "cStyle":""}
+        },
+        {
+            "name":"H1 章", "fontName":"黑體-Arial-B", "fontStyle":"", "fontSize":20, "nextStyle":"內文",
+            "running header":{"listType":"NUMBERED_LIST", "level":1, "numberStyle":"ARABIC", "numberStr":"第 ^# 章^t", "cStyle":"c左書眉章"}
+        },
+        {
+            "name":"H1 章強調", "fontName":"黑體-Arial-B", "fontStyle":"", "fontSize":20, "nextStyle":"內文",
+            "running header":{"listType":"NUMBERED_LIST", "level":1, "numberStyle":"ARABIC", "numberStr":"第 ^# 章^t", "cStyle":"c左書眉章"}
+        },
+        {
+            "name":"H2 節", "fontName":"黑體-Times-B", "fontStyle":"", "fontSize":18, "nextStyle":"內文",
+            "running header":{"listType":"NUMBERED_LIST", "level":2, "numberStyle":"ARABIC", "numberStr":"第 ^1.^# 節^t", "cStyle":"c右書眉節"}
+        },
+        {
+            "name":"H3 小節", "fontName":"黑體-Times-B", "fontStyle":"", "fontSize":16, "nextStyle":"內文",
+            "running header":{"listType":"NUMBERED_LIST", "level":3, "numberStyle":"ARABIC", "numberStr":"第 ^1.^2.^# 節^t", "cStyle":"c右書眉節"}
+        },
+        {
+            "name":"H4 小小節", "fontName":"黑體-Times-B", "fontStyle":"", "fontSize":14, "nextStyle":"內文",
+            "running header":{"listType":"NUMBERED_LIST", "level":4, "numberStyle":"ARABIC", "numberStr":"第 ^1.^2.^3.^# 節^t", "cStyle":""}
+        }
+    ],
+    "_comment_text_var_MATCH_CHARACTER_STYLE_TYPE_" : "name, variableTypes, cStyle, searchStrategies",
+    "Text Vars CStyle": [
+        { "name":"tv右書眉節", "variableTypes":"MATCH_CHARACTER_STYLE_TYPE", "cStyle":"c右書眉節", "searchStrategies":"FIRST_ON_PAGE"},
+        { "name":"tv右書眉節號", "variableTypes":"MATCH_CHARACTER_STYLE_TYPE", "cStyle":"c右書眉節號", "searchStrategies":"FIRST_ON_PAGE"},
+        { "name":"tv左書眉章", "variableTypes":"MATCH_CHARACTER_STYLE_TYPE", "cStyle":"c左書眉章", "searchStrategies":"FIRST_ON_PAGE"},
+        { "name":"tv左書眉章號", "variableTypes":"MATCH_CHARACTER_STYLE_TYPE", "cStyle":"c左書眉章號", "searchStrategies":"FIRST_ON_PAGE"}
+    ]
+}
