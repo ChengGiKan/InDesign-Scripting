@@ -1,0 +1,106 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "01 Test",
+            "program": "${workspaceFolder}/01_test.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "02 ScriptUI Test",
+            "program": "${workspaceFolder}/02_scriptUI_test.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "03 Input Unicode",
+            "program": "${workspaceFolder}/03_input_unicode.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "04 Big Project",
+            "program": "${workspaceFolder}/04_big_project.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "05 加密示範 明碼",
+            "program": "${workspaceFolder}/05_enc_1.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "05 加密示範 加密檔",
+            "program": "${workspaceFolder}/05_enc_1.jsxbin",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "06 加密示範 (Lib)",
+            "program": "${workspaceFolder}/06_enc_2.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "07 UnitValue Test",
+            "program": "${workspaceFolder}/07 UnitValue_test.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "08 Move and Select",
+            "program": "${workspaceFolder}/08 move and select.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "09 Scan fonts",
+            "program": "${workspaceFolder}/09 Scan the Fonts.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "10 Applying Font, Style, Color",
+            "program": "${workspaceFolder}/10 Applying.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "11 Search",
+            "program": "${workspaceFolder}/11 search.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "12 Word Footnote",
+            "program": "${workspaceFolder}/12 Word Footnote.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "13 System Info",
+            "program": "${workspaceFolder}/13 test system.jsx",
+            "stopOnEntry": false
+        }
+    ]
+}
