@@ -12,6 +12,9 @@ Currently, detail documentation about this script (and its calling libraries) ar
 
 Hope I have time to write one.
 
+## Usage
+Modify the json file to meet your design. Using this script ahd json files, it might be a reasonable way to manager your document layouts.
+
 ## Tested
 
 The script has been tested on:
