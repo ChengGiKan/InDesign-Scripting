@@ -25,3 +25,9 @@ with
 
 and 
 * ExtendScript Toolkit (excluded macOS 15).
+
+## Note
+* The composite font is for CJK typesetting.
+If you don't use composite font, just comment the section in json file.
+* For the binding from right, currently, it is not supported in this version of code.
+* There is an issue, which the script cannot load composite font in one run. That is why, in the script, the document is saved, closed and reloaded before applying character styles and paragraph styles.
