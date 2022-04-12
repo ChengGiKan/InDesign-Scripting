@@ -15,6 +15,8 @@ The scripts have been tested on:
 * mac mini Late 2012 + masOS 10.14.7 + InDesign 2021 (32 bit)
 * mac mini Late 2012 + masOS 10.15.6 + InDesign 2022 (64 bit)
 
-with Visual Studio Code.
+with 
+* Visual Studio Code
 
-They shall work also with ExtendScript Toolkit, with which, I did not run them all for testing.
+and 
+* ExtendScript Toolkit (excluded macOS 15).
