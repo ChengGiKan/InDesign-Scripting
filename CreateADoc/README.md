@@ -15,6 +15,10 @@ Hope I have time to write one.
 ## Usage
 Modify the json file to meet your design. Using this script and json files, it might be a reasonable way to manager your document layouts.
 
+## Dependence
+ExtendScript doesn't provide a json parser. Please download json2.js for parsing json files.
+I put the json2.js, which is in the public domain,  here in this repository for your convenience.
+
 ## Tested
 
 The script has been tested on:
