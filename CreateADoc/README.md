@@ -36,4 +36,4 @@ If you don't use composite font, just comment the section in json file.
 * There is an issue, which the script cannot load composite font in one run. That is why, in the script, the document is saved, closed and reloaded before setting up character styles, paragraph styles and so on.
 
 ## ToDo (Hope, I have time)
-* Redesign the syntax of adding textframes in the json object.
+* Redesign the syntax of adding textframes in the json file.
