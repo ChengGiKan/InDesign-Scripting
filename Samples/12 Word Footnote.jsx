@@ -1,6 +1,6 @@
 #target "indesign"
 
-// File name: 12 Word Footnote.js
+// File name: 12 Word Footnote.jsx
 // Date: 2022-04-12
 
 // MIT License
