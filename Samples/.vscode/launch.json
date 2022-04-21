@@ -101,6 +101,13 @@
             "name": "13 System Info",
             "program": "${workspaceFolder}/13 test system.jsx",
             "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "14 Selection Test",
+            "program": "${workspaceFolder}/14 Selection.jsx",
+            "stopOnEntry": false
         }
     ]
 }
