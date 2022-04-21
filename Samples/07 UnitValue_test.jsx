@@ -1,6 +1,6 @@
 #target "indesign"
 
-// File name: 07 UnitValue_test.js
+// File name: 07 UnitValue_test.jsx
 // Date: 2022-04-12
 
 // MIT License
