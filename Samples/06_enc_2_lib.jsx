@@ -1,4 +1,4 @@
-// File name: 06_enc_2_lib.js
+// File name: 06_enc_2_lib.jsx
 // Date: 2022-04-12
 
 // MIT License
