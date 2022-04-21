@@ -1,6 +1,6 @@
 #target "indesign"
 
-// File name: 11 search.js
+// File name: 11 search.jsx
 // Date: 2022-04-12
 
 // MIT License
