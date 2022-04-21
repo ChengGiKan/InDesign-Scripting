@@ -1,6 +1,6 @@
 #target "indesign"
 
-// File name: 06_enc_2.js
+// File name: 06_enc_2.jsx
 // Date: 2022-04-12
 
 // MIT License
