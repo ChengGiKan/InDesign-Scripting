@@ -1,6 +1,6 @@
 ﻿#target "InDesign"
 
-// File name: 04_big_project.js
+// File name: 04_big_project.jsx
 // Date: 2022-04-12
 
 // MIT License
