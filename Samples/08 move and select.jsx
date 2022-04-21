@@ -7,7 +7,7 @@
 // Which is usually located at the folder (Windows):
 // C:\Program Files (x86)\Adobe\Adobe ExtendScript Toolkit CC\SDK\Samples\javascript
 
-// File name: 08 move and select.js
+// File name: 08 move and select.jsx
 // Date: 2022-04-12
 
 // MIT License
