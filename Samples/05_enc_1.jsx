@@ -1,4 +1,4 @@
-// File name: 05_enc_1.js
+// File name: 05_enc_1.jsx
 // Date: 2022-04-12
 
 // MIT License
