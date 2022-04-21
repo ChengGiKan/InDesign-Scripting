@@ -1,6 +1,6 @@
 #target "indesign"
 
-// File name: 09 Scan the Fonts.js
+// File name: 09 Scan the Fonts.jsx
 // Date: 2022-04-12
 
 // MIT License
