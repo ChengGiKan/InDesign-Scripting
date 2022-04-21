@@ -1,6 +1,6 @@
 #target "indesign"
 
-// File name: 10 Applying.js
+// File name: 10 Applying.jsx
 // Date: 2022-04-12
 
 // MIT License
