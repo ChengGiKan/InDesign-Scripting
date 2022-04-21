@@ -1,6 +1,6 @@
 //#targetengine "session" // !! this line cannot be applied to illustrator !!
 
-// File name: 13 test system.js
+// File name: 13 test system.jsx
 // Date: 2022-04-12
 
 // MIT License
