@@ -1,4 +1,4 @@
-// File name: TextVarLib.js
+// File name: TextVarLib.jsx
 // Date: 2022-04-12
 
 // MIT License
