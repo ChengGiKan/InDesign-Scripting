@@ -1,6 +1,6 @@
 ﻿#target "InDesign"
 
-// File name: 03_input_unicode.js
+// File name: 03_input_unicode.jsx
 // Date: 2022-04-12
 
 // MIT License
