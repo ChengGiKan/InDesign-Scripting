@@ -1,7 +1,7 @@
 ﻿#target "InDesign"
 #targetengine "session"
 
-// File name: 02_scriptUI_test.js
+// File name: 02_scriptUI_test.jsx
 // Date: 2022-04-12
 
 // MIT License
