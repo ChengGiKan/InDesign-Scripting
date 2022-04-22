@@ -1,30 +1,5 @@
 #target "indesign"
-// File name: 01 Create Document.js
-// Date: 2022-04-12
-
-// MIT License
-//
-// Copyright (c) 2022 Cheng-I Chien, (GitHub accoutn: ChengGiKan)
-//
-// Permission is hereby granted, free of charge, to any person obtaining a copy
-// of this software and associated documentation files (the "Software"), to deal
-// in the Software without restriction, including without limitation the rights
-// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-// copies of the Software, and to permit persons to whom the Software is
-// furnished to do so, subject to the following conditions:
-//
-// The above copyright notice and this permission notice shall be included in all
-// copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-// SOFTWARE.
-
-// NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
+// 01 Create Document.jsx
 
 #include "BasicLib.jsx"        // Basc
 #include "ColorLib.jsx"        // Colr
@@ -40,9 +15,11 @@ main();
 
 function main() {
 	var jsonObj = readDataDlg();
-	if (jsonObj == null)
+	if (jsonObj == null) {
+		alert("Error: Open file fails.");
 		return;
-
+	}
+	
 	var osOK = checkOS(jsonObj["OS"]);
 	if (osOK < 0) {
 		var osName = "Windows";
@@ -53,16 +30,14 @@ function main() {
 		return;
 	}
 
-	var documentName = jsonObj["Document Name"];
-	var documentPath = jsonObj["Document Path"];
 	var jsonPath = jsonObj["Json Path"];
+	var jsonName = jsonObj["Json Name"];
 
-	documentPath = setupPath(documentPath);
 	jsonPath = setupPath(jsonPath);
 
-	var theFileName = documentName + ".indd";
+	var theFileName = jsonName + ".indd"; // documentName + ".indd";
 
-	var result = checkFileExists(theFileName, documentPath, jsonPath);
+	var result = checkFileExists(theFileName, jsonPath);
 	if (result[0] == true) {
 		alert("File \"" + theFileName + "\" exsits.\nPlease delete it and run this script again.\nThis program ends.");
 		return;
@@ -130,16 +105,12 @@ function setupPath(thePath) {
 	return thePath;
 }
 
-function checkFileExists(fileName, documentPath, jsonPath) {
+function checkFileExists(fileName, jsonPath) {
 	var theFile = null;
 	var thePath = "";
-	if (documentPath != 0) {
-		theFile = new File(documentPath + fileName);
-		thePath = documentPath;
-	} else {
-		theFile = new File(jsonPath + fileName);
-		thePath = jsonPath;
-	}
+
+	theFile = new File(jsonPath + fileName);
+	thePath = jsonPath;
 
 	var result = false;
 	if (theFile.exists) {

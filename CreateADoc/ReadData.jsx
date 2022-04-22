@@ -62,6 +62,7 @@ function readDataDlg() {
     }
 
     var thePath = theFile.path;
+    var theName = theFile.name;
 
     theFile.open("r");
     var jsonStr = theFile.read();
@@ -71,7 +72,17 @@ function readDataDlg() {
 
     try {
         jsonObj = JSON.parse(jsonStr);
+        if (thePath.slice(-1) != "/")
+            thePath += "/";
         jsonObj["Json Path"] = thePath;
+
+        var lastDot = theName.lastIndexOf(".");
+        var pureName = "";
+        if (lastDot == -1)
+            pureName = theName;
+        else
+            pureName = theName.slice(0, lastDot);
+        jsonObj["Json Name"] = pureName;
     }
     catch (_) {
         jsonObj = null;
