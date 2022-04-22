@@ -1,25 +1,5 @@
 // BasicLib.jsx
 
-function myCleanup(re1) {
-	var theString = "Done.";
-	if (re1 == 0) {
-		theString = "First run: Done.";
-	}
-
-	var myDialog = app.dialogs.add({ name: "Function completed." });
-	with (myDialog.dialogColumns.add()) {
-		staticTexts.add({ staticLabel: theString });
-	}
-	var myResult = myDialog.show();
-	//	if (myResult == true) {
-	//		alert("You clicked the OK button");
-	//	} else {
-	//		alert("You clicked the Cancel button");
-	//	}
-
-	myDialog.destroy();
-}
-
 function scriptDone() {
 	var theString = "Done.";
 
@@ -51,30 +31,8 @@ function basicSetup(theFileName, thePath, basicJSON) {
 
 	myDoc = app.documents.add();
 	myDocSetup(myDoc, basicJSON);
-	/*
-		var theFile = new File(thePath + theFileName);
-		myDoc.save(theFile);
-		myDoc.close();
-	
-		myDoc = app.open(theFile);
-	*/
+
 	return myDoc;
-}
-
-function StyleSetup() {
-	var myDoc;
-	if (app.documents.length == 0) {
-		myDoc = app.documents.add();
-	} else {
-		myDoc = app.documents.item(0);
-	}
-
-	myCStylesSetup(myDoc);
-	myCStylesSetupColorTest(myDoc); // new
-	myPStylesSetup(myDoc);
-	myTextVariablesSetup(myDoc);
-	myCrossReferencesSetup(myDoc);
-	myMasterSpreads(myDoc);
 }
 
 // Doc Setup ========================================
